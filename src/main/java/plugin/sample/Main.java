@@ -106,4 +106,5 @@ public final class Main extends JavaPlugin implements Listener {
         //for文で取得した情報をプレイヤーに反映させる
         player.getInventory().setContents(itemStacks);
     }
+    //push-test用
 }
