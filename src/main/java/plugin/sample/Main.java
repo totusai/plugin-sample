@@ -27,7 +27,7 @@ public final class Main extends JavaPlugin implements Listener {
 
     //intの初期値は0なので、わざわざ0で初期化する必要はない
     private Integer count = 0;
-    private World world;
+    //private World world;
 
     @Override
     public void onEnable() {
@@ -47,7 +47,7 @@ public final class Main extends JavaPlugin implements Listener {
         //player情報を取得する
         Player player = e.getPlayer();
         //ワールド情報を取得する
-        World korld = player.getWorld();
+        World world = player.getWorld();
 
         BigInteger val = new BigInteger(count.toString());
 
@@ -106,5 +106,6 @@ public final class Main extends JavaPlugin implements Listener {
         //for文で取得した情報をプレイヤーに反映させる
         player.getInventory().setContents(itemStacks);
     }
-    //push-test用ii
+    //push-test用
+    //デイトラday21_課題PullRequest確認用コメント
 }
