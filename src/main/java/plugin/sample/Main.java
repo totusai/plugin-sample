@@ -27,7 +27,6 @@ public final class Main extends JavaPlugin implements Listener {
 
     //intの初期値は0なので、わざわざ0で初期化する必要はない
     private Integer count = 0;
-    //private World world;
 
     @Override
     public void onEnable() {
